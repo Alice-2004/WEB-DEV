@@ -1,0 +1,19 @@
+# Ignore media files
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.mkv
+*.webm
+
+# Ignore entire folders
+audios/
+videos/
+images/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings (optional)
+.vscode/
