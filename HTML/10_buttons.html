@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    
+</head>
+<body>
+    <!--
+    HTML Buttons:
+    The <button> tag is used to create clickable buttons in web pages. Buttons can be used to submit forms, trigger JavaScript functions, or link to other pages when wrapped in an <a> tag. You can style buttons with CSS and add interactivity using the 'onclick' attribute or JavaScript event listeners.
+    -->
+    <h3>click to open my github profile</h3>
+    <a href="https://github.com/Alice-2004">
+    <button style="font-size: large; background-color:bisque; border-radius:25px; color:chocolate">github</button>
+    </a> 
+    <br>
+    <h3>click here to open audio files(another html file</h3>
+    <a href="04_audio.html">
+    <button style="font-size: large; background-color:bisque; border-radius:25px; color:chocolate">songs</button>
+    </a>
+    <br>
+    <h3>click here to change text(js event)</h3>
+    
+    <button onclick="changeText()" style="font-size: large; background-color:bisque; border-radius:25px; color:chocolate">change</button>
+    <p id="greeting">Alice-2004</p>
+    <script>
+        function changeText(){
+            document.getElementById("greeting").innerHTML = "Hello, Alice-2025"
+        }
+    </script>
+</body>
+</html>
