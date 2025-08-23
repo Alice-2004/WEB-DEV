@@ -15,8 +15,7 @@ I am practicing **HTML, CSS, and JavaScript** by making small projects.
 - CSS  
 - JavaScript  
 
-## You can see my practice projects here in detail 👇
-https://github.com/Alice-2004/Practice_Projects.git
+
 
 ---
 *This repo will keep growing as I learn more.*  
