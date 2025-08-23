@@ -1,0 +1,32 @@
+#countLabel{
+    display:block;
+    text-align:center;
+    font-size:8em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#countBtn{
+    text-align:center;
+    
+}
+.buttons{
+    padding:10px 20px;
+    background-color:hsl(0, 65%, 83%);
+    border-radius:5px;
+    font-size:1em;
+    font-weight: bold;
+    color:aliceblue;
+    cursor:pointer;
+    transition:background-color 0.25s;
+}
+.buttons:hover{
+    background-color:hsl(0, 80%, 60%);
+}
+.counter-box {
+    margin: 60px auto;
+    padding: 40px 30px;
+    background:white;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px hsla(0, 71%, 49%, 0.2);
+    max-width: 400px;
+    text-align: center;
+}
